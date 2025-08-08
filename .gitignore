@@ -1,0 +1,28 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Terraform variable override files
+*.tfvars
+*.tfvars.json
+
+# Terraform plan output
+*.tfplan
+
+# Sensitive or local-only Terraform config
+.terraform.tfstate
+.terraform.lock.hcl
+
+# Terraform working directory
+.terraform/
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+desktop.ini
+
